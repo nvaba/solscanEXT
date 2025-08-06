@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Solscan QOL",
+  "version": "2.0",
+  "description": "for nerds only",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://solscan.io/tx/*", "https://solscan.io/account/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
